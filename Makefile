@@ -1,5 +1,5 @@
 # Substitute your own docker index username, if you like.
-DOCKER_USER=tstangenberg
+DOCKER_USER=thstangenberg
 
 # Change this to suit your needs.
 CONTAINER_NAME=electrumx
@@ -24,7 +24,7 @@ ncbuild:
 
 # normal run
 run: clean
-	docker run --name="$(CONTAINER_NAME)" $(DOCKER_USER)/$(DOCKER_IMAGE):$(DOCKER_TAG)
+	docker run --name="$(CONTAINER_NAME)" -p 50001:50001 -p 50002:50002 $(DOCKER_USER)/$(DOCKER_IMAGE):$(DOCKER_TAG)
 
 # run to bash
 bash: clean

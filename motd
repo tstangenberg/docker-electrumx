@@ -1,5 +1,5 @@
-ElectrumX Server $ELECTRUMX_VERSION
-Bitcoind 0.14.1 @fullnode
+$SERVER_SUBVERSION
+$DAEMON_SUBVERSION
 
 You can thank me for this service at this address: $DONATION_ADDRESS
 Вы можете поблагодарить меня за эту услугу по этому адресу: $DONATION_ADDRESS
