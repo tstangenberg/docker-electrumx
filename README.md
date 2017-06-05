@@ -1,19 +1,20 @@
 # Docker electrumx
-Electrum Server Node
+Electrumx Server Node
 
 Dockerhub: [stangenberg/electrumx][dockerhub]
 
 ## Features
-- Feature A
-- Feature B
-- Feature C
+- ElectrumX Server
 
 ## Exposed volumes
 - /srv/db
 
 ## Exposed ports
-- 50001
-- 50002
+- 50001 TCP
+- 50002 SSL
+
+## Evironment Variables
+See https://github.com/kyuupichan/electrumx/blob/master/docs/ENVIRONMENT.rst
 
 ## Build
 Make is used as build system.
