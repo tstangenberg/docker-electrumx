@@ -1,0 +1,45 @@
+repo_name: tstangenberg/docker-electrumx
+report_id: 99539b18e63e17473856f3f3803c2c47
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:29:49+00:00'
+requested_by: tstangenberg
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  version: 3.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tstangenberg/docker-electrumx/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Thorben Stangenberg
+  last_updated_on: 2017-06-02 12:50:19.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/tstangenberg/docker-electrumx
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tstangenberg/docker-electrumx
+  detection_source: Repo Metadata
